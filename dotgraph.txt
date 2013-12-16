@@ -1,0 +1,15 @@
+digraph G {
+node [width=.3,height=.3,shape=octagon,style=filled,color=skyblue];
+overlap="false";
+rankdir="LR";
+      y -> s [label="7"];
+      y -> v [label="6"];
+      x -> y [label="2"];
+      x -> u [label="3"];
+      x -> v [label="9"];
+      s -> x [label="5"];
+      s -> u [label="10"];
+      u -> x [label="2"];
+      u -> v [label="1"];
+      v -> y [label="4"];
+}
